@@ -1,60 +1,227 @@
+/* GENERAL */
+
 :root {
-    --orange-main-color: #EC5242;
-    --blue-main-color: #272a31;
-    --gray-main-color: #D3D3D3;
+  --orange-main-color: #ec5242;
+  --blue-main-color: #272a31;
+  --gray-main-color: #d3d3d3;
+  --lato: "Lato", sans-serif;
 }
 
-main {
-    height: 100vh;
-    background-image: url("../images/background-image.jpg");
-    width: 100%;
-    background-position: center center;
-    background-size: cover;
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "Lato", sans-serif;
+  min-width: 320px;
+}
+
+/* Navbar Rules */
+
+nav {
+  background-color: rgba(255, 255, 255, 0.836);
+  height: 60px;
+  top: 0;
+  width: 100%;
+  padding: 0 15px;
+  position: sticky;
+  z-index: 30;
+}
+
+.nav-logo {
+  height: 65px;
+  width: 150px;
+}
+
+.nav-small-logo {
+  height: 60px;
+}
+
+.dropdown-toggle::after {
+  content: none !important;
+}
+
+.hamburguer {
+  padding: 10px;
+  height: 50px;
+  width: 59px;
+  border-radius: 5px;
+}
+
+.dot {
+  color: var(--blue-main-color);
+  display: inline-block;
+}
+
+.hamburguer:focus {
+  outline: none;
+}
+
+.line {
+  background-color: var(--blue-main-color);
+  width: 30px;
+  height: 4px;
+  margin: auto;
+}
+
+.join {
+  padding: 10px;
+  color: white;
+  font-weight: bolder;
+  background-color: var(--blue-main-color);
+  border-radius: 5px;
+}
+
+h1,
+h2 {
+  margin-top: 10px;
+  font-family: "cocogooseregular", sans-serif;
+}
+
+/* Main Area */
+
+main {
+  height: fit-content;
+  background-image: url("/assets/images/vide-game.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: calc(100vh - 60px);
+  min-height: 620px;
+  overflow: hidden;
 }
 
 .background-gradient {
-    background: linear-gradient(180deg, rgba(39,42,49,1) 0%, rgba(255,255,255,0.9) 40%, rgba(255,255,255,0.9) 75%, rgba(39,42,49,1) 100%);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    padding: 40px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.85) 0%,
+    rgba(255, 255, 255, 0.96) 40%,
+    rgba(255, 255, 255, 0.9) 60%,
+    rgba(39, 42, 49, 0.85) 90%
+  );
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+}
+
+.main-content {
+  width: 80%;
+  height: fit-content;
+  margin: auto;
+  max-width: 1200px;
 }
 
 h1 {
-    font-family: 'Lato', sans-serif;
-    font-size: 45px;
-    font-weight: 900;
-    color: var(--orange-main-color);
-    opacity: 0.8;
-    
+  font-size: 40px;
+  font-weight: 900;
+  color: var(--orange-main-color);
 }
 
 h2 {
-    font-family: 'Lato', sans-serif;
-    color: var(--orange-main-color);
-    font-size: 22px;
-
+  color: var(--blue-main-color);
+  font-size: 20px;
 }
 
-.titles {
-    width: 100%;
+.join-experience {
+  background-color: var(--orange-main-color);
+  color: white;
+  padding: 15px 10px;
+  margin-top: 20px;
+  border-radius: 15px;
+  width: 200px;
+  font-family: "cocogooseregular", sans-serif;
 }
+
+.load-image {
+  position: absolute;
+  left: 45%;
+  top: 0;
+  width: 95px;
+}
+
+.about {
+  padding: 25px 0px 0px;
+}
+
+.about p {
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px 25px;
+  z-index: 10;
+}
+
+.date,
+.local {
+  display: block;
+  font-weight: bold;
+  color: gray;
+  font-size: 15px;
+  margin: 10px 0px;
+}
+
+.local-date-img {
+  width: 24px;
+  margin-right: 10px;
+}
+
+/* Events Area */
 
 
 
 /* font-family: 'Lato', sans-serif; */
-@media (min-width: 758px) 
-{
-  h1,h2 {
-      margin-left: 10%;
+@media (min-width: 768px) {
+  /* NavBar Media */
+
+  nav {
+    height: 65px;
   }
 
-  h1{
-      font-size: 60px;
+  .join-first {
+    display: none;
+  }
+
+  .load-image {
+    left: 95%;
+  }
+
+  .dropdown-area {
+    display: none;
+  }
+
+  .right a {
+    font-weight: bold;
+    color: var(--blue-main-color);
+  }
+
+  .right li {
+    margin-left: 10px;
+  }
+
+  /* Main Area Media */
+
+  main {
+    min-height: 680px;
+  }
+
+  h1 {
+    font-size: 70px;
+    max-width: 725px;
   }
 
   h2 {
-      font-size: 40px;
+    font-size: 35px;
+    max-width: 725px;
+  }
+
+  .about {
+    max-width: 725px;
+    padding-top: 40px;
+  }
+
+  .date,
+  .local {
+    font-size: 20px;
   }
 }

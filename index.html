@@ -4,17 +4,17 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <title>JOYSTICKED EXPERIENCE</title>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="specimen_files/specimen_stylesheet.css" type="text/css" charset="utf-8" />
-	<link rel="stylesheet" href="/assets/styles/cocogoose/stylesheet.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="assets/font/stylesheet.css" type="text/css" charset="utf-8" />
    
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/styles/reset.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/styles/style.css" type="text/css">
-    <title>JOYSTICKED EXPERIENCE</title>
+    <link rel="stylesheet" href="./assets/styles/style.css" type="text/css">
+
   </head>
 
 
@@ -22,24 +22,70 @@
                             <!-- Here start the Displayed Section -->
   <body>
 
-    <header>
-        <nav class="home-nav">
-            <div class="left">
-                
-            </div>
-            <div class="right"></div>
-        </nav>
-    </header>
+    <nav class="home-nav d-flex justify-content-between align-items-center">
 
-    <main>
-        <div class="background-gradient d-flex align-items-center">
-            <div class="titles">
-                <h2 class="">"The Best Gamer Experience is Coming!"</h2>
-                <h1>JoySticked Experience 2020</h1>
+        <div class="left">
+            <a href="#"><img class="nav-logo d-none d-md-inline-block" src="assets/images/Logo.svg" alt="JoySticked Logo"></a>
+            <div class="dropdown dropdown-area">
+                <button type="button" class="border-0 dropdown-toggle hamburguer d-inline-block d-md-none border-0" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="line line-border d-block ml-auto mr-1"></span>
+                    <span class="line mt-1 line-middle d-block ml-auto mr-1"></span>
+                    <span class="line mt-1 line-border d-block ml-auto mr-1"></span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">About</a>
+                    <a class="dropdown-item" href="#">Sponsors</a>
+                    <a class="dropdown-item" href="#">Program</a>
+                    <a class="dropdown-item" href="#">News</a>
+                </div>
+            </div>
+            
+        </div>
+        <button type="button" class="join join-first">
+            Tickets
+        </button>
+        <ul class="right d-none d-md-flex m-0 justify-content-between align-items-center">
+            <li><a href="#">About</a></li><li><span class="dot">&bull;</span></li>
+            <li><a href="#">Sponsors</a></li><li><span class="dot"></span>&bull;</li>
+            <li><a href="#">Program</a></li><li><span class="dot"></span>&bull;</li>
+            <li><a href="#">News</a></li><li>
+            <li>
+                <button type="button" class="join">
+                        Tickets
+                </button>
+            </li>
+        </ul>
+        <a href="#" class="d-md-none"><img class="nav-small-logo d-md-none" src="assets/images/small-logo.svg" alt="JoySticked Logo"></a>
+        
+    </nav>
+
+
+    
+
+    <main class="main">
+        <div class="background-gradient d-flex flex-column justify-content-center ">
+            <div class="main-content d-flex flex-column justify-content-between">
+                <h2>"The Best Gamer Experience of the year is Coming!"</h2>
+                <h1>JoySticked Experience</h1> 
+                <h3>2020 &bull; Classic Times</h3>
+                
+                <div class="about position-relative">
+                    <p class="position-relative"> 
+                        An event specially planned for those who loves Games. <br>The latest technologies, this year, with a special touch of nostalgia. 
+                        <span class="date"><img src="assets/images/calendar.svg" class="local-date-img">15/06 &bull; 20/06</span>
+                        <span class="local"><img src="assets/images/point.svg" class="local-date-img">Pinheiral, Brazil</span>
+                    </p>
+                    <img src="assets/images/load.svg" class="load-image">
+                </div>
+                <button type="button" class="join-experience b-0 mx-auto mx-md-0"> Join Experience!</button>
             </div>
         </div>
 
     </main>
+
+    <div class="events">
+        
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
