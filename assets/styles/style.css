@@ -19,6 +19,10 @@ body {
   min-width: 315px;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 /* Navbar Rules */
 
 nav {
@@ -127,6 +131,9 @@ h2 {
 
 .join-experience {
   background-color: var(--orange-main-color);
+}
+
+.join-experience, .more {
   color: white;
   padding: 15px 10px;
   margin-top: 20px;
@@ -193,7 +200,7 @@ h2 {
   margin: 0px;
 }
 
-.events h4 {
+ h4 {
   color: white;
   font-family: var(--coco);
   font-size: 18px;
@@ -210,10 +217,14 @@ h2 {
   
   text-align: left;
   padding: 3px 10px;
-  color: var(--orange-main-color);
   font-family: 'cocogooselight';
   font-size: 15px;
   width: 86px;
+}
+
+h5 {
+  color: var(--orange-main-color);
+  font-size: 15px;
 }
 
 .event-item-img {
@@ -229,7 +240,7 @@ h2 {
   background-color: var(--orange-main-color);
 }
 
-.events h4:hover + .effect {
+.header-effect:hover + .effect {
   width: 150px;
   transition: width 2s;
 }
@@ -249,6 +260,77 @@ h2 {
   text-decoration: white underline;
 }
 
+.championships h4 {
+  color: var(--blue-main-color)
+}
+
+/* Championships Section */
+
+.championships {
+  padding: 20px 15px;
+}
+
+.champ-img {
+  padding: 10px 0px 0px 10px;
+  height: 80px;
+}
+
+.swords {
+  height: 60px;
+  position:absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 5;
+}
+
+.champ-game {
+  height: 60px;
+  position: relative;
+  z-index: 8;
+}
+
+.champ-item {
+  box-shadow: 0 0 10px #d3d3d3, 0 0 15px #fff;
+  padding: 25px 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.game-text {
+  font-size: 15px;
+}
+
+.game-text h5 {
+  font-family: var(--coco);
+}
+
+.game-text {
+  padding-left: 10px;
+}
+
+.game-text p {
+  font-size: 14px;
+  color:gray;
+}
+
+.ocult {
+  display: none;
+}
+
+.more {
+  width: 100%;
+}
+
+.more:focus {
+  position: absolute;
+  z-index: -10;
+  width: 10px;
+}
+
+.more:focus + .ocult {
+  display: block;
+}
 
 /* font-family: 'Lato', sans-serif; */
 @media (min-width: 768px) {
@@ -326,10 +408,6 @@ h2 {
     height: 50px;
   }
 
-  .event-item h4 {
-    font-size: 20px;
-  }
-
   .event-item h5 {
     text-align: center;
   }
@@ -357,4 +435,45 @@ h2 {
   .event-item img{
     margin-bottom: 10px;
   }
+
+  /* Champioship Area Media */
+
+  .champ-img {
+    padding: 25px 0px 10px 25px;
+  }
+  
+  .swords {
+    height: 110px;
+  }
+  
+  .champ-game {
+    height: 120px;
+    position: relative;
+    z-index: 8;
+  }
+
+  .ocult {
+    display: block;
+  }
+
+  .champ-item p{
+     font-size: 16px;
+  }
+
+  .champ-item{
+    width: 48%;
+    padding-bottom: 2px;
+    min-height: 145px;
+ }
+
+  .row-champ {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .championships {
+    max-width: 1500px;
+    margin: auto;
+  }
+
 }
