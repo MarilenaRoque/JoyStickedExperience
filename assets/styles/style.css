@@ -282,7 +282,7 @@ h5 {
   text-decoration: white underline;
 }
 
-.championships h4 {
+.championships h4, .sponsors h4 {
   color: var(--blue-main-color)
 }
 
@@ -352,6 +352,23 @@ h5 {
 
 .more:focus + .ocult {
   display: block;
+}
+
+/* Sponsors Section */
+
+.sponsors {
+  background-color: var(--gray-main-color);
+  padding: 20px 15px;
+}
+
+.sp-brand {
+  height: 20px;
+  margin: 15px 10px;
+}
+
+.sponsor-row {
+  width: fit-content;
+  margin: auto;
 }
 
 /* font-family: 'Lato', sans-serif; */
@@ -496,6 +513,17 @@ h5 {
   .championships {
     max-width: 1500px;
     margin: auto;
+  }
+
+  /* Sponsors Area */
+
+  .sponsors {
+    padding: 20px 15px;
+  }
+  
+  .sp-brand {
+    height: 40px;
+    margin: 30px 20px;
   }
 
 }
