@@ -23,6 +23,27 @@ a:hover {
   text-decoration: none;
 }
 
+/* Blue Navbar */
+
+.blue-nav {
+  height: 36px;
+  background-color: var(--blue-main-color);
+  padding: 0px 10px;
+}
+
+.social-medias {
+  margin-left: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.social-icons {
+  width: 20px;
+  margin-left: 15px;
+}
+
 /* Navbar Rules */
 
 nav {
@@ -175,6 +196,7 @@ h2 {
 }
 
 /* Events Area */
+
 .events {
   background-color: #272a31;
   color: white;
