@@ -4,7 +4,7 @@
 
 This is my capstone project for the HTML5/CSS3 module from Microverse Curriculum.
 
- The design shoul be inspired on the design created by [Cindy Shin in Behance](https://www.behance.net/adagio07)
+ The design should be inspired on the design created by [Cindy Shin in Behance](https://www.behance.net/adagio07)
     
 
 ## Requiments

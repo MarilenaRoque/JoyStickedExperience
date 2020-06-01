@@ -418,8 +418,32 @@ footer {
   margin-bottom: 12px;
 }
 
+.webpage-title {
+  color: var(--blue-main-color);
+}
 
+.development-webpage {
+  padding: 20px 15px 30px;
+  font-size: 15px;
+  border-bottom: 1px solid #d3d3d3;
+}
 
+.mari {
+  color:var(--orange-main-color);
+  font-weight: bold;
+} 
+.webpage-logo {
+  width: 50px;
+}
+
+.web-logo {
+  padding: 10px 20px;
+  background-color: var(--orange-main-color);
+  width: 90px;
+  border-radius: 5px;
+  box-shadow: 0 0 12px #272a31;
+
+}
 
 /* font-family: 'Lato', sans-serif; */
 @media (min-width: 768px) {
