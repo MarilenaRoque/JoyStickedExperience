@@ -406,6 +406,19 @@ footer {
   font-size: 20px;
 }
 
+/**************             About Page        ***********/
+
+.about-main {
+  padding: 0px 15px;
+}
+
+.long-p span{
+  font-size: 14px;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+
 
 
 /* font-family: 'Lato', sans-serif; */
@@ -577,5 +590,23 @@ footer {
   .footer-logo {
     height: 80px;
   }
+
+  /********* About Page Media */
+
+  /* Main Section Media */
+
+  .about-main {
+    padding: 0px 15px;
+  }
+  
+  .long-p span{
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 12px;
+  }
+
+  
+
+  
 
 }
