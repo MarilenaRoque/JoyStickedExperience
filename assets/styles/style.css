@@ -5,6 +5,7 @@
   --blue-main-color: #272a31;
   --gray-main-color: #d3d3d3;
   --lato: "Lato", sans-serif;
+  --coco: "cocogooseregular", sans-serif;
 }
 
 * {
@@ -15,7 +16,7 @@
 
 body {
   font-family: "Lato", sans-serif;
-  min-width: 320px;
+  min-width: 315px;
 }
 
 /* Navbar Rules */
@@ -167,7 +168,75 @@ h2 {
 }
 
 /* Events Area */
+.events {
+  background-color: #272a31;
+  color: white;
+  padding: 20px 15px;
+}
 
+.event-item {
+  height: 180px;
+  border-radius: 5px;
+  box-shadow: 0 0 2px #272a31, 0 0 10px #fff;
+  margin: 20px;
+  padding: 0px 10px;
+
+}
+
+.event-wrapper {
+  margin: auto;
+}
+
+.event-item p {
+  text-align: left;
+  max-width: 220px;
+  margin: 0px;
+}
+
+.events h4 {
+  color: white;
+  font-family: var(--coco);
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.titles-events {
+  width: 150px;
+  margin: 25px auto 20px;
+}
+
+.events h5 {
+  
+  text-align: left;
+  padding: 3px 10px;
+  color: var(--orange-main-color);
+  font-family: 'cocogooselight';
+  font-size: 15px;
+  width: 86px;
+}
+
+.event-item-img {
+  margin-top: 3px;
+  height: 30px;
+}
+
+.effect {
+  display: block;
+  width: 40px;
+  margin: auto;
+  height: 5px;
+  background-color: var(--orange-main-color);
+}
+
+.events h4:hover + .effect {
+  width: 150px;
+  transition: width 2s;
+}
+
+.event-item a:hover {
+  text-decoration: none;
+}
 
 
 /* font-family: 'Lato', sans-serif; */
@@ -199,6 +268,8 @@ h2 {
     margin-left: 10px;
   }
 
+
+
   /* Main Area Media */
 
   main {
@@ -223,5 +294,55 @@ h2 {
   .date,
   .local {
     font-size: 20px;
+  }
+
+  /* Events Media  */
+
+  .events {
+    width: 100%;
+  }
+
+  .event-item {
+    height: 280px;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0px;
+    width: 20%;
+    padding: 4px;
+  }
+
+  .event-item-img {
+    height: 50px;
+  }
+
+  .event-item h4 {
+    font-size: 20px;
+  }
+
+  .event-item h5 {
+    text-align: center;
+  }
+
+  .event-item p{
+    text-align: center;
+    width: 90%;
+  }
+
+  .event-wrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+  }
+
+  .event-item{
+    align-items: baseline;
+  }
+
+  .events-content {
+    max-width: 1000px;
+  }
+
+  .event-item img{
+    margin-bottom: 10px;
   }
 }
