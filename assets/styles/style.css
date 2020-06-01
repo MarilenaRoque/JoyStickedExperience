@@ -371,6 +371,43 @@ h5 {
   margin: auto;
 }
 
+/* Footer Area */
+
+.footer-logo {
+  height: 50px;
+}
+
+footer {
+  padding: 20px 15px;
+  background-color: var(--blue-main-color);
+  color: white;
+  font-family: 'cocogooselight';
+  font-size: 12px;
+}
+
+.logo-footer {
+  height: fit-content;
+  background-color: white;
+  padding: 2px 5px;
+  border-radius: 8px;
+}
+
+.footer-text {
+  margin-left: 15px;
+}
+
+.footer-wrap {
+  width: fit-content;
+  margin: auto;
+}
+
+.heart {
+  color:var(--orange-main-color);
+  font-size: 20px;
+}
+
+
+
 /* font-family: 'Lato', sans-serif; */
 @media (min-width: 768px) {
   /* NavBar Media */
@@ -524,6 +561,21 @@ h5 {
   .sp-brand {
     height: 40px;
     margin: 30px 20px;
+  }
+
+  /* Footer Area Media */
+
+  footer {
+    padding: 50px 15px;
+    font-size: 18px;
+  }
+
+  footer .social-icons {
+    width: 40px;
+  }
+
+  .footer-logo {
+    height: 80px;
   }
 
 }
