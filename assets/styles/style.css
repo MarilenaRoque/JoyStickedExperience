@@ -110,7 +110,7 @@ h2 {
 
 main {
   height: fit-content;
-  background-image: url("/assets/images/vide-game.jpg");
+  background-image: url("../images/vide-game.jpg");
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -448,11 +448,11 @@ footer {
 }
 
 .img-2019 {
-  background-image: url("/assets/images/2019.jpeg"); 
+  background-image: url("../images/2019.jpeg"); 
 }
 
 .img-2018 {
-  background-image: url("/assets/images/2018.jpeg"); 
+  background-image: url("../images/2018.jpeg"); 
 }
 
 .img-year {
