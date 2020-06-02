@@ -10,7 +10,7 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/font/stylesheet.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="assets/font/stylesheet.css" type="text/css" />
    
 
     <!-- Bootstrap CSS -->
@@ -56,18 +56,18 @@
             </div>
             
         </div>
-        <a href='./tickets.html'><button type="button" class="join join-first">
+        <button onclick="window.location.href = './tickets.html';" type="button" class="join join-first">
             Tickets
-        </button></a>
+        </button>
         <ul class="right d-none d-md-flex m-0 justify-content-between align-items-center">
             <li><a href="./about.html">About</a></li><li><span class="dot">&bull;</span></li>
             <li><a href="#sponsors">Sponsors</a></li><li><span class="dot"></span>&bull;</li>
             <li><a href="#">Program</a></li><li><span class="dot"></span>&bull;</li>
             <li><a href="#">News</a></li><li>
             <li>
-                <a href='./tickets.html'><button type="button" class="join">
+                <button type="button" class="join" onclick="window.location.href = './tickets.html';">
                         Tickets
-                </button></a>
+                </button>
             </li>
         </ul>
         <a href="./index.html" class="d-md-none"><img class="nav-small-logo d-md-none" src="assets/images/small-logo.svg" alt="JoySticked Logo"></a>
@@ -87,12 +87,12 @@
                 <div class="about position-relative">
                     <p class="position-relative"> 
                         An event specially planned for those who loves Games. <br>The latest technologies, this year, with a special touch of nostalgia. 
-                        <span class="date"><img src="assets/images/calendar.svg" class="local-date-img">15/06 &bull; 17/06</span>
-                        <span class="local"><img src="assets/images/point.svg" class="local-date-img">Pinheiral, Brazil</span>
+                        <span class="date"><img src="assets/images/calendar.svg" alt="icon" class="local-date-img">15/06 &bull; 17/06</span>
+                        <span class="local"><img src="assets/images/point.svg" alt="icon" class="local-date-img">Pinheiral, Brazil</span>
                     </p>
-                    <img src="assets/images/load.svg" class="load-image">
+                    <img src="assets/images/load.svg" class="load-image"  alt="detail">
                 </div>
-                <a href='./tickets.html'><button type="button" class="join-experience b-0 mx-auto mx-md-0"> Join Experience!</button></a>
+                <button type="button" class="join-experience b-0 mx-auto mx-md-0" onclick="window.location.href = './tickets.html';"> Join Experience!</button>
             </div>
         </div>
 
@@ -111,7 +111,7 @@
 
             <div class="event-item d-flex align-items-center">
                 <div class="event-wrapper d-flex align-items-center">
-                    <img src="assets/images/speech.svg" class="event-item-img">
+                    <img src="assets/images/speech.svg" class="event-item-img"  alt="icon">
                     <a href="#"><h5 class="m-0">Q&A</h5></a>
                     <p>
                         Questions and Answers with producers, developers, artists and more.
@@ -122,7 +122,7 @@
             
             <div class="event-item d-flex align-items-center">
                 <div class="event-wrapper d-flex align-items-center">
-                    <img src="assets/images/cosplay.svg" class="event-item-img">
+                    <img src="assets/images/cosplay.svg" class="event-item-img"  alt="icon">
                     <a href="#"><h5 class="m-0">Cosplay</h5></a>
                     <p>
                         A great environment dedicated to lovers of the cosplay art.
@@ -131,7 +131,7 @@
             </div>
             <div class="event-item d-flex align-items-center">
                 <div class="event-wrapper d-flex align-items-center">
-                    <img src="assets/images/coding.svg" class="event-item-img">
+                    <img src="assets/images/coding.svg" class="event-item-img"  alt="icon">
                     <a href="#"><h5>Devs</h5></a>
                     <p>
                         Short courses and speechs for Game Developers with experts.
@@ -140,7 +140,7 @@
             </div>
             <div class="event-item d-flex align-items-center">
                 <div class="event-wrapper d-flex align-items-center">
-                    <img src="assets/images/prize.svg" class="event-item-img">
+                    <img src="assets/images/prize.svg" class="event-item-img"  alt="icon">
                     <a href="#"><h5>Champs</h5></a>
                     <p>
                         Participate and watch professionals in championships.
@@ -149,7 +149,7 @@
             </div>
             <div class="event-item d-flex align-items-center">
                 <div class="event-wrapper d-flex align-items-center">
-                    <img src="assets/images/partnership.svg" class="event-item-img">
+                    <img src="assets/images/partnership.svg" class="event-item-img"  alt="icon">
                     <a href="#"><h5>Meet & Greet</h5></a>
                     <p>
                         The opportunity to come face to face with great personalities.
@@ -158,7 +158,7 @@
             </div>
         </div>
         <a href="#"><p class="d-none d-md-block see-all">SEE THE WHOLE PROGRAM</p></a>
-        <a href='./tickets.html'><button type="button" class="join-experience b-0 mx-auto d-md-none w-100"> Tickets </button></a>
+        <button type="button" class="join-experience b-0 mx-auto d-md-none w-100" onclick="window.location.href = './tickets.html';"> Tickets </button>
     </section>
 
     <!-- Championships -->
@@ -172,8 +172,8 @@
         <div class="row-champ">
             <div class="champ-item d-flex">
                 <div class="champ-img position-relative d-flex align-items-center">
-                    <img class="swords" src="assets/images/load.svg">
-                    <img class="champ-game" src="assets/images/lol.jpg">
+                    <img class="swords" src="assets/images/load.svg"  alt="Cham Item Image">
+                    <img class="champ-game" src="assets/images/lol.jpg" alt="Cham Item Image">
                 </div>
                 <div class="game-text">
                     <a href="#"><h5> League of Legends</h5></a>
@@ -183,8 +183,8 @@
 
             <div class="champ-item d-flex">
                 <div class="champ-img position-relative d-flex align-items-center">
-                    <img class="swords" src="assets/images/load.svg">
-                    <img class="champ-game" src="assets/images/counter-strike.png">
+                    <img class="swords" src="assets/images/load.svg" alt="load">
+                    <img class="champ-game" src="assets/images/counter-strike.png" alt="event-image">
                 </div>
                 <div class="game-text">
                     <a href="#"><h5> Counter-Strike</h5></a>
@@ -199,8 +199,8 @@
             <div class="row-champ">
                 <div class="champ-item d-flex">
                     <div class="champ-img position-relative d-flex align-items-center">
-                        <img class="swords" src="assets/images/load.svg">
-                        <img class="champ-game" src="assets/images/free-fire.jpg">
+                        <img class="swords" src="assets/images/load.svg" alt="Cham Item Image">
+                        <img class="champ-game" src="assets/images/free-fire.jpg" alt="Cham Item Image">
                     </div>
                     <div class="game-text">
                         <a href="#"><h5> Free Fire</h5></a>
@@ -210,8 +210,8 @@
 
                 <div class="champ-item d-flex">
                     <div class="champ-img position-relative d-flex align-items-center">
-                        <img class="swords" src="assets/images/load.svg">
-                        <img class="champ-game" src="assets/images/paintball.jpeg">
+                        <img class="swords" src="assets/images/load.svg" alt="Champ Item Image">
+                        <img class="champ-game" src="assets/images/paintball.jpeg" alt="Champ Item Image">
                     </div>
                     <div class="game-text">
                         <a href="#"><h5> Paintball</h5></a>
@@ -224,8 +224,8 @@
             <div class="row-champ">
                 <div class="champ-item d-flex">
                     <div class="champ-img position-relative d-flex align-items-center">
-                        <img class="swords" src="assets/images/load.svg">
-                        <img class="champ-game" src="assets/images/just-dance.jpeg">
+                        <img class="swords" src="assets/images/load.svg" alt="Champ Item Image">
+                        <img class="champ-game" src="assets/images/just-dance.jpeg" alt="Champ Item Image">
                     </div>
                     <div class="game-text">
                         <a href="#"><h5> Just Dance</h5></a>
@@ -235,8 +235,8 @@
 
                 <div class="champ-item d-flex">
                     <div class="champ-img position-relative d-flex align-items-center">
-                        <img class="swords" src="assets/images/load.svg">
-                        <img class="champ-game" src="assets/images/magic.png">
+                        <img class="swords" src="assets/images/load.svg" alt="Champ Item Image">
+                        <img class="champ-game" src="assets/images/magic.png" alt="Champ Item Image">
                     </div>
                     <div class="game-text">
                         <a href="#"><h5> Magic </h5></a>
@@ -259,14 +259,14 @@
         <div class="flex-desktop ">
 
             <div class="sponsor-row d-flex">
-                <img class="sp-brand" src="assets/images/xbox.png">
-                <img class="sp-brand" src="assets/images/razer.svg">
-                <img class="sp-brand" src="assets/images/Hyperx.svg">
+                <img class="sp-brand" src="assets/images/xbox.png" alt="Brand Logo">
+                <img class="sp-brand" src="assets/images/razer.svg" alt="Brand Logo">
+                <img class="sp-brand" src="assets/images/Hyperx.svg" alt="Brand Logo">
             </div>
 
             <div class="sponsor-row d-flex">
-                <img class="sp-brand2" src="assets/images/nvidia.svg">
-                <img class="sp-brand2" src="assets/images/playstation.svg">
+                <img class="sp-brand2" src="assets/images/nvidia.svg" alt="Brand Logo">
+                <img class="sp-brand2" src="assets/images/playstation.svg" alt="Brand Logo">
                 
             </div>
 
@@ -278,14 +278,14 @@
     <footer>
         <div class="footer-wrap d-flex">
             <div class="logo-footer">
-                <a href="https://github.com/MarilenaRoque"><img src="assets/images/Logo.svg" class="footer-logo"></a>
+                <a href="https://github.com/MarilenaRoque"><img src="assets/images/Logo.svg" alt="logo" class="footer-logo"></a>
             </div>
             <div class="footer-text">
                 <p> Made with <span class="heart">&#9825;</span> by Mari Roque Developer</p>
                 <div class="personal-icons">
-                    <a href="https://github.com/MarilenaRoque"><img src="assets/images/github.svg" class="social-icons"></a>
-                    <a href="https://twitter.com/MariRoq88285995"><img src="assets/images/twitter.svg" class="social-icons"></a>
-                    <a href="https://www.linkedin.com/in/roquemarilena/"><img src="assets/images/linkedin.svg" class="social-icons"></a>
+                    <a href="https://github.com/MarilenaRoque"><img src="assets/images/github.svg " alt="logo" class="social-icons"></a>
+                    <a href="https://twitter.com/MariRoq88285995"><img src="assets/images/twitter.svg" alt="logo" class="social-icons"></a>
+                    <a href="https://www.linkedin.com/in/roquemarilena/"><img src="assets/images/linkedin.svg" alt="logo" class="social-icons"></a>
                 </div>
             </div>
         </div>

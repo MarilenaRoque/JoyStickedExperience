@@ -34,7 +34,7 @@ Follow the guidelines of the given design, including:
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://raw.githack.com/MarilenaRoque/JoyStickedExperience/develop/index.html)
 
 
 ## Author

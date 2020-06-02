@@ -23,9 +23,16 @@ a:hover {
   text-decoration: none;
 }
 
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+  outline: none;
+}
 
-input:focus, textarea:focus, select:focus, button:focus {
-	outline: none;
+h5 {
+  color: var(--orange-main-color);
+  font-size: 15px;
 }
 
 /* Blue Navbar */
@@ -114,7 +121,6 @@ h2 {
 /* Main Area */
 
 main {
-  height: fit-content;
   background-image: url("../images/vide-game.jpg");
   background-position: center;
   background-size: cover;
@@ -244,14 +250,9 @@ h4 {
 .events h5 {
   text-align: left;
   padding: 3px 10px;
-  font-family: 'cocogooselight';
+  font-family: 'cocogooselight', sans-serif;
   font-size: 15px;
   width: 86px;
-}
-
-h5 {
-  color: var(--orange-main-color);
-  font-size: 15px;
 }
 
 .event-item-img {
@@ -328,14 +329,11 @@ h5 {
 
 .game-text {
   font-size: 15px;
+  padding-left: 10px;
 }
 
 .game-text h5 {
   font-family: var(--coco);
-}
-
-.game-text {
-  padding-left: 10px;
 }
 
 .game-text p {
@@ -378,35 +376,34 @@ h5 {
   margin: 15px 10px;
 }
 
-
 .sponsor-row {
   width: fit-content;
   margin: auto;
 }
 
-.boxOptions input{
+.boxOptions input {
   margin: auto;
   display: block;
 }
 
-.ticket-select {
-  padding: 15px 20px;
+label {
+  font-size: 14px;
 }
 
 .boxOptions label,
 .boxOptions p,
-.boxOptions h5{
+.boxOptions h5 {
   text-align: center;
   display: flex;
   border: 1px solid #2e303327;
   height: 50px;
-  margin: 0px;
+  margin: 0;
   align-content: center;
   justify-content: center;
-  padding: 0px;
+  padding: 0;
 }
 
-.boxOptions  {
+.boxOptions {
   margin: 20px auto;
   box-shadow: 0 0 5px var(--gray-main-color);
   border-radius: 10px;
@@ -432,7 +429,7 @@ footer {
   padding: 20px 15px;
   background-color: #272a31;
   color: white;
-  font-family: 'cocogooselight';
+  font-family: 'cocogooselight', sans-serif;
   font-size: 12px;
 }
 
@@ -497,11 +494,11 @@ footer {
 }
 
 .img-2019 {
-  background-image: url("../images/2019.jpeg"); 
+  background-image: url("../images/2019.jpeg");
 }
 
 .img-2018 {
-  background-image: url("../images/2018.jpeg"); 
+  background-image: url("../images/2018.jpeg");
 }
 
 .img-year {
@@ -527,19 +524,18 @@ footer {
   background-color: #272a31cc;
 }
 
-h6{
+h6 {
   font-size: 20px;
   font-weight: bold;
 }
 
 .option {
-  width:50px;
+  width: 50px;
   height: 50px;
   background-color: var(--orange-main-color);
 }
 
 /**************             Tickets Page        ***********/
-
 
 .ticket-select {
   background-color: whitesmoke;
@@ -549,7 +545,7 @@ h6{
 
 .lunch-select {
   background-color: white;
-  padding: 0px 15px 40px;
+  padding: 0 15px 40px;
   width: 100%;
 }
 
@@ -571,22 +567,16 @@ h6{
   margin-right: 10px;
 }
 
-
-fieldset{
+fieldset {
   width: 100%;
   padding: 10px 10px;
 }
 
 .day {
   width: 40%;
-  margin: auto;
+  margin: 15px auto;
   border: 1px solid var(--blue-main-color);
-  margin: 15px 0px;
   max-width: 140px;
-}
-
-label {
-  font-size: 14px;
 }
 
 .day p {
@@ -607,7 +597,7 @@ label {
   transform: translateX(-50%);
 }
 
-.detail-relative{
+.detail-relative {
   position: relative;
   bottom: 40px;
   width: 100%;
@@ -615,7 +605,7 @@ label {
 
 .confirm {
   width: fit-content;
-  margin:auto;
+  margin: auto;
 }
 
 /* font-family: 'Lato', sans-serif; */
@@ -710,14 +700,6 @@ label {
     height: 80%;
   }
 
-  .event-item {
-    align-items: baseline;
-  }
-
-  .events-content {
-    max-width: 1000px;
-  }
-
   .event-item img {
     margin-bottom: 10px;
   }
@@ -764,7 +746,6 @@ label {
 
   /* Sponsors Area */
 
-
   .sp-brand {
     margin: 30px 20px;
   }
@@ -781,9 +762,9 @@ label {
   }
 
   .sponsor-row {
-    margin: 0px;
+    margin: 0;
   }
-  
+
 
 
   /********* About Page Media */
@@ -812,19 +793,18 @@ label {
     max-width: 820px;
   }
 
-  .boxOptions  {
+  .boxOptions {
     box-shadow: 0 0 0;
-    padding: 0px;
+    padding: 0;
   }
-  
+
   .wrapper-boxOptions {
     margin: 20px auto;
     border-radius: 5px;
     box-shadow: 0 0 5px var(--gray-main-color);
     display: flex;
-    padding: 0px 15px;
+    padding: 0 15px;
     background-color: white;
     max-width: 1000px;
   }
-  
 }
