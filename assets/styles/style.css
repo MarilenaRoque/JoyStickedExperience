@@ -824,6 +824,7 @@ label {
     display: flex;
     padding: 0px 15px;
     background-color: white;
+    max-width: 1000px;
   }
   
 }
