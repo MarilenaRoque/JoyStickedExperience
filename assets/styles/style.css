@@ -23,6 +23,11 @@ a:hover {
   text-decoration: none;
 }
 
+
+input:focus, textarea:focus, select:focus, button:focus {
+	outline: none;
+}
+
 /* Blue Navbar */
 
 .blue-nav {
@@ -692,17 +697,10 @@ label {
   /* Footer Area Media */
 
   footer {
-    padding: 50px 15px;
-    font-size: 18px;
+    padding: 25px 15px;
   }
+  
 
-  footer .social-icons {
-    width: 40px;
-  }
-
-  .footer-logo {
-    height: 80px;
-  }
 
   /********* About Page Media */
 
