@@ -14,7 +14,7 @@
    
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/styles/reset.css" type="text/css">
+    <link rel="stylesheet" href="./assets/styles/reset.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/styles/style.css" type="text/css">
 
@@ -23,7 +23,7 @@
 
 
                             <!-- Here start the Displayed Section -->
-  <body>
+  <body class="m-0">
 
     <!-- NavBars -->
 
@@ -94,82 +94,76 @@
                 </fieldset>
             </div>
             <div class="diamond"></div>
-            <div class="titles-events">
-                <a href="#" class="header-effect"><h4> Select your Lunch </h4></a>
-                <span class= "effect"></span>
+
+            <div class="lunch-select">
+                <div class="titles-events">
+                    <a href="#" class="header-effect"><h4> Select your Lunch </h4></a>
+                    <span class= "effect"></span>
+                </div>
+                <div class="step"><span class="step-text"> &bull; STEP 1</span> Please Select your lunch</div>
+
+                <div class="d-flex justify-content-center d-md-block">
+    
+                    <div class="day">
+                        <p> Day-1 &bull; 15/06</p>
+                        <div class="options d-md-flex justify-content-around">
+                            <span>
+                                <input type="radio" id="Chicken" name="day1" value="chicken">
+                                <label for="chiken">Chicken</label><br>
+                            </span>
+                            <span>
+                                <input type="radio" id="beef" name="day1" value="beef">
+                                <label for="beef">Beef</label><br>
+                            </span>
+                            <span>
+                                <input type="radio" id="Pasta" name="day1" value="Pasta">
+                                <label for="Pasta">Pasta</label>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="day">
+                        <p> Day-2 &bull; 16/06</p>
+                        <div class="options d-md-flex justify-content-around">
+                            <span>
+                                <input type="radio" id="chicken" name="day2" value="chicken">
+                                <label for="chicken">Chicken</label><br>
+                            </span>
+                            <span>
+                                <input type="radio" id="beef" name="day2" value="beef">
+                                <label for="beef">Beef</label><br>
+                            </span>
+                            <span>
+                                <input type="radio" id="Pasta" name="day2" value="Pasta">
+                                <label for="Pasta">Pasta</label>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="day">
+                        <p> Day-3 &bull; 17/06</p>
+                        <div class="options d-md-flex justify-content-around">
+                            <span>
+                                <input type="radio" id="chicken" name="day3" value="chicken">
+                                <label for="chicken">Chicken</label><br>
+                            </span>
+                            <span>
+                                <input type="radio" id="beef" name="day3" value="beef">
+                                <label for="beef">Beef</label><br>
+                            </span>
+                            <span>
+                                <input type="radio" id="Pasta" name="day3" value="Pasta">
+                                <label for="Pasta">Pasta</label>
+                            </span>
+                        </div>
+                    </div>
+
+
+
+                    
+                </div>
             </div>
-
-            <fieldset class="d-flex">
-
-        
-                <div class="day-column">
-                    <p class="label-box">Day-1 &bull; 15/06</p>
-                    <span class="lunch1">
-                        <input type="radio" id="chicken" name="lunch-one" value="chiicken">
-                        <label for="chicken" >Chicken</label><br>
-                    </span>
-                    <span class="lunch2">
-                        <input type="radio" id="beef" name="lunch-one" value="beef">
-                        <label for="beef">Beef</label><br>
-                    </span>
-                    <span class="lunch3">
-                        <input type="radio" id="vegeterian" name="lunch-one" value="vegeterian">
-                        <label for="vegeterian">Vegeterian</label>
-                    </span>
-                </div>
-
-                <div class="day-column">
-                    <p class="label-box">Day-1 &bull; 15/06</p>
-                    <span class="lunch1">
-                        <input type="radio" id="chicken" name="lunch-one" value="chiicken">
-                        <label for="chicken" >Chicken</label><br>
-                    </span>
-                    <span class="lunch2">
-                        <input type="radio" id="beef" name="lunch-one" value="beef">
-                        <label for="beef">Beef</label><br>
-                    </span>
-                    <span class="lunch3">
-                        <input type="radio" id="vegeterian" name="lunch-one" value="vegeterian">
-                        <label for="vegeterian">Vegeterian</label>
-                    </span>
-                </div>
-
-                <div class="day-column">
-                    <p class="label-box">Day-1 &bull; 15/06</p>
-                    <span class="lunch1">
-                        <input type="radio" id="chicken" name="lunch-one" value="chiicken">
-                        <label for="chicken" >Chicken</label><br>
-                    </span>
-                    <span class="lunch2">
-                        <input type="radio" id="beef" name="lunch-one" value="beef">
-                        <label for="beef">Beef</label><br>
-                    </span>
-                    <span class="lunch3">
-                        <input type="radio" id="vegeterian" name="lunch-one" value="vegeterian">
-                        <label for="vegeterian">Vegeterian</label>
-                    </span>
-                </div>
-
-
-
-                
-            </fieldset>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-
+            
 
         </form>
 
