@@ -283,7 +283,8 @@ h5 {
 }
 
 .championships h4,
-.sponsors h4 {
+.sponsors h4,
+.ticket-choice h4 {
   color: var(--blue-main-color);
 }
 
@@ -481,6 +482,56 @@ h6{
   font-size: 20px;
   font-weight: bold;
 }
+
+.option {
+  width:50px;
+  height: 50px;
+  background-color: var(--orange-main-color);
+}
+
+/**************             Tickets Page        ***********/
+
+
+.ticket-select {
+  background-color: whitesmoke;
+  padding: 40px 15px;
+}
+
+.step {
+  border-radius: 25px;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  padding: 6px;
+  box-shadow: 0 0 6px var(--gray-main-color);
+  max-width: 320px;
+  margin: auto;
+}
+
+.step-text {
+  color: var(--orange-main-color);
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.label-box {
+  font-weight: bold;
+  color:var(--blue-main-color);
+  text-align: center;
+  background-color:  #d3d3d3;
+}
+
+label {
+  font-size: 14px;
+}
+
+.day-column {
+  border: 1px solid #d3d3d3;
+  padding: 2px;
+}
+
+
 
 
 /* font-family: 'Lato', sans-serif; */
