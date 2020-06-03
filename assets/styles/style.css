@@ -35,6 +35,11 @@ h5 {
   font-size: 15px;
 }
 
+ol,
+ul {
+  list-style: none;
+}
+
 /* Blue Navbar */
 
 .blue-nav {
