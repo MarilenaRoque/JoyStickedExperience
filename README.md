@@ -23,7 +23,6 @@ Build these 3 pages as the minimum requirements:
 - the about page
 - the tickets page
 
- 
 
 Each of these pages should have versions for 2 different screen sizes: 
 
