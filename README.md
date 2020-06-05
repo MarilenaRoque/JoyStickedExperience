@@ -4,10 +4,18 @@
 
 This is my capstone project for the HTML5/CSS3 module from Microverse Curriculum.
 
- The design shoul be inspired on the design created by [Cindy Shin in Behance](https://www.behance.net/adagio07)
-    
+ The design should be inspired on the design created by [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
-## Requiments
+
+ ## Desktop Version
+
+ ![screenshot](./assets/images/desktop-preview.png)
+
+ ## Mobile Version
+    
+ ![screenshot](./assets/images/mobile-preview.png)
+
+## Requirements
 
 Build these 3 pages as the minimum requirements:
 
@@ -15,7 +23,6 @@ Build these 3 pages as the minimum requirements:
 - the about page
 - the tickets page
 
- 
 
 Each of these pages should have versions for 2 different screen sizes: 
 
@@ -34,7 +41,11 @@ Follow the guidelines of the given design, including:
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://marilenaroque.github.io/JoyStickedExperience/)
+
+## Demo Video
+
+[Watch the Video here!!!](https://www.loom.com/share/2fb6e16ddf0f4a95baee571f1aa0cd4c)
 
 
 ## Author

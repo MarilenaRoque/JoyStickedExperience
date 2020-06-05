@@ -1,0 +1,810 @@
+/* GENERAL */
+
+:root {
+  --orange-main-color: #ec5242;
+  --blue-main-color: #272a31;
+  --gray-main-color: #d3d3d3;
+  --lato: "Lato", sans-serif;
+  --coco: "cocogooseregular", sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  min-width: 315px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+  outline: none;
+}
+
+h5 {
+  color: var(--orange-main-color);
+  font-size: 15px;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+/* Blue Navbar */
+
+.blue-nav {
+  height: 36px;
+  background-color: var(--blue-main-color);
+  padding: 0 10px;
+}
+
+.social-medias {
+  margin-left: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.social-icons {
+  width: 20px;
+  margin-left: 15px;
+}
+
+/* Navbar Rules */
+
+nav {
+  background-color: rgba(255, 255, 255);
+  height: 60px;
+  top: 0;
+  width: 100%;
+  padding: 0 15px;
+  position: sticky;
+  z-index: 30;
+}
+
+.nav-logo {
+  height: 65px;
+  width: 150px;
+}
+
+.nav-small-logo {
+  height: 60px;
+}
+
+.dropdown-toggle::after {
+  content: none !important;
+}
+
+.hamburguer {
+  padding: 10px;
+  height: 50px;
+  width: 59px;
+  border-radius: 5px;
+}
+
+.dot {
+  color: var(--blue-main-color);
+  display: inline-block;
+}
+
+.hamburguer:focus {
+  outline: none;
+}
+
+.line {
+  background-color: var(--blue-main-color);
+  width: 30px;
+  height: 4px;
+  margin: auto;
+}
+
+.join {
+  padding: 10px;
+  color: white;
+  font-weight: bolder;
+  background-color: var(--blue-main-color);
+  border-radius: 5px;
+}
+
+h1,
+h2 {
+  margin-top: 10px;
+  font-family: "cocogooseregular", sans-serif;
+}
+
+/* Main Area */
+
+main {
+  background-image: url("../images/vide-game.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: calc(100vh - 60px);
+  min-height: 620px;
+  overflow: hidden;
+}
+
+.background-gradient {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.85) 0%,
+      rgba(255, 255, 255, 0.96) 40%,
+      rgba(255, 255, 255, 0.9) 60%,
+      rgba(39, 42, 49, 0.85) 90%
+    );
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+}
+
+.main-content {
+  width: 80%;
+  height: fit-content;
+  margin: auto;
+  max-width: 1200px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 900;
+  color: var(--orange-main-color);
+}
+
+h2 {
+  color: var(--blue-main-color);
+  font-size: 20px;
+}
+
+.join-experience {
+  background-color: var(--orange-main-color);
+}
+
+.join-experience,
+.more {
+  color: white;
+  padding: 15px 10px;
+  margin-top: 20px;
+  border-radius: 15px;
+  width: 200px;
+  font-family: "cocogooseregular", sans-serif;
+}
+
+.load-image {
+  position: absolute;
+  left: 45%;
+  top: 0;
+  width: 95px;
+}
+
+.about {
+  padding: 25px 0 0;
+}
+
+.about p {
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px 25px;
+  z-index: 10;
+}
+
+.date,
+.local {
+  display: block;
+  font-weight: bold;
+  color: gray;
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+.local-date-img {
+  width: 24px;
+  margin-right: 10px;
+}
+
+/* Events Area */
+
+.events {
+  background-color: #272a31;
+  color: white;
+  padding: 20px 15px;
+}
+
+.event-item {
+  height: 180px;
+  border-radius: 5px;
+  box-shadow: 0 0 2px #272a31, 0 0 10px #fff;
+  margin: 20px;
+  padding: 0 10px;
+}
+
+.event-wrapper {
+  margin: auto;
+}
+
+.event-item p {
+  text-align: left;
+  max-width: 220px;
+  margin: 0;
+}
+
+h4 {
+  color: white;
+  font-family: var(--coco);
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.titles-events {
+  width: 150px;
+  margin: 25px auto 20px;
+}
+
+.events h5 {
+  text-align: left;
+  padding: 3px 10px;
+  font-family: 'cocogooselight', sans-serif;
+  font-size: 15px;
+  width: 86px;
+}
+
+.event-item-img {
+  margin-top: 3px;
+  height: 30px;
+}
+
+.effect {
+  display: block;
+  width: 40px;
+  margin: auto;
+  height: 5px;
+  background-color: var(--orange-main-color);
+}
+
+.header-effect:hover + .effect {
+  width: 150px;
+  transition: width 2s;
+}
+
+.event-item a:hover {
+  text-decoration: none;
+}
+
+.see-all {
+  text-align: center;
+  margin: 20px 0;
+  color: white;
+  font-family: 'cocogooselight', sans-serif;
+}
+
+.see-all:hover {
+  text-decoration: white underline;
+}
+
+.championships h4,
+.sponsors h4,
+.ticket-choice h4 {
+  color: var(--blue-main-color);
+}
+
+/* Championships Section */
+
+.championships {
+  padding: 20px 15px;
+}
+
+.champ-img {
+  padding: 10px 0 0 10px;
+  height: 80px;
+}
+
+.swords {
+  height: 60px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 5;
+}
+
+.champ-game {
+  height: 60px;
+  position: relative;
+  z-index: 8;
+}
+
+.champ-item {
+  box-shadow: 0 0 10px #d3d3d3, 0 0 15px #fff;
+  padding: 25px 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.game-text {
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.game-text h5 {
+  font-family: var(--coco);
+}
+
+.game-text p {
+  font-size: 14px;
+  color: gray;
+}
+
+.ocult {
+  display: none;
+}
+
+.more {
+  width: 100%;
+}
+
+.more:focus {
+  position: absolute;
+  z-index: -10;
+  width: 10px;
+}
+
+.more:focus + .ocult {
+  display: block;
+}
+
+/* Sponsors Section */
+
+.sponsors {
+  background-color: var(--gray-main-color);
+  padding: 20px 15px;
+}
+
+.sp-brand {
+  height: 20px;
+  margin: 15px 10px;
+}
+
+.sp-brand2 {
+  height: 40px;
+  margin: 15px 10px;
+}
+
+.sponsor-row {
+  width: fit-content;
+  margin: auto;
+}
+
+.boxOptions input {
+  margin: auto;
+  display: block;
+}
+
+label {
+  font-size: 14px;
+}
+
+.boxOptions label,
+.boxOptions p,
+.boxOptions h5 {
+  text-align: center;
+  display: flex;
+  border: 1px solid #2e303327;
+  height: 50px;
+  margin: 0;
+  align-content: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.boxOptions {
+  margin: 20px auto;
+  box-shadow: 0 0 5px var(--gray-main-color);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.boxOptions h5 {
+  padding-top: 5px;
+}
+
+.boxOptions p {
+  background-color: white;
+}
+
+/* Footer Area */
+
+.footer-logo {
+  height: 50px;
+}
+
+footer {
+  padding: 20px 15px;
+  background-color: #272a31;
+  color: white;
+  font-family: 'cocogooselight', sans-serif;
+  font-size: 12px;
+}
+
+.logo-footer {
+  height: fit-content;
+  background-color: white;
+  padding: 2px 5px;
+  border-radius: 8px;
+}
+
+.footer-text {
+  margin-left: 15px;
+}
+
+.footer-wrap {
+  width: fit-content;
+  margin: auto;
+}
+
+.heart {
+  color: var(--orange-main-color);
+  font-size: 20px;
+}
+
+/**************             About Page        ***********/
+
+.about-main {
+  padding: 0 15px;
+}
+
+.long-p span {
+  font-size: 14px;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.webpage-title {
+  color: var(--blue-main-color);
+}
+
+.development-webpage {
+  padding: 40px 15px 40px;
+  font-size: 15px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.mari {
+  color: var(--orange-main-color);
+  font-weight: bold;
+}
+
+.webpage-logo {
+  width: 50px;
+}
+
+.web-logo {
+  padding: 10px 20px;
+  background-color: var(--orange-main-color);
+  width: 90px;
+  border-radius: 5px;
+  box-shadow: 0 0 12px #272a31;
+}
+
+.img-2019 {
+  background-image: url("../images/2019.jpeg");
+}
+
+.img-2018 {
+  background-image: url("../images/2018.jpeg");
+}
+
+.img-year {
+  height: 180px;
+  margin: 40px auto;
+  background-position: cover;
+  background-repeat: no-repeat;
+  width: 275px;
+}
+
+.orange-effect {
+  color: white;
+  font-family: var(--lato);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #ec53428c;
+}
+
+.orange-effect:hover {
+  background-color: #272a31cc;
+}
+
+h6 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.option {
+  width: 50px;
+  height: 50px;
+  background-color: var(--orange-main-color);
+}
+
+/**************             Tickets Page        ***********/
+
+.ticket-select {
+  background-color: whitesmoke;
+  padding: 40px 15px;
+  width: 100%;
+}
+
+.lunch-select {
+  background-color: white;
+  padding: 0 15px 40px;
+  width: 100%;
+}
+
+.step {
+  border-radius: 25px;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  padding: 6px;
+  box-shadow: 0 0 6px var(--gray-main-color);
+  max-width: 300px;
+  margin: auto;
+}
+
+.step-text {
+  color: var(--orange-main-color);
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+fieldset {
+  width: 100%;
+  padding: 10px 10px;
+}
+
+.day {
+  width: 40%;
+  margin: 15px auto;
+  border: 1px solid var(--blue-main-color);
+  max-width: 140px;
+}
+
+.day p {
+  background-color: whitesmoke;
+  text-align: center;
+  border-bottom: 1px solid var(--blue-main-color);
+}
+
+.options {
+  padding: 10px;
+}
+
+.detail {
+  position: relative;
+  width: 80px;
+  margin: auto;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.detail-relative {
+  position: relative;
+  bottom: 40px;
+  width: 100%;
+}
+
+.confirm {
+  width: fit-content;
+  margin: auto;
+}
+
+/* font-family: 'Lato', sans-serif; */
+@media (min-width: 768px) {
+  /* NavBar Media */
+
+  nav {
+    height: 65px;
+  }
+
+  .join-first {
+    display: none;
+  }
+
+  .load-image {
+    left: 95%;
+  }
+
+  .dropdown-area {
+    display: none;
+  }
+
+  .right a {
+    font-weight: bold;
+    color: var(--blue-main-color);
+  }
+
+  .right li {
+    margin-left: 10px;
+  }
+
+  /* Main Area Media */
+
+  main {
+    min-height: 680px;
+  }
+
+  h1 {
+    font-size: 70px;
+    max-width: 725px;
+  }
+
+  h2 {
+    font-size: 35px;
+    max-width: 725px;
+  }
+
+  .about {
+    max-width: 725px;
+    padding-top: 40px;
+  }
+
+  .date,
+  .local {
+    font-size: 20px;
+  }
+
+  /* Events Media  */
+
+  .events {
+    width: 100%;
+  }
+
+  .event-item {
+    height: 280px;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0;
+    width: 20%;
+    padding: 4px;
+  }
+
+  .event-item-img {
+    height: 50px;
+  }
+
+  .event-item h5 {
+    text-align: center;
+  }
+
+  .event-item p {
+    text-align: center;
+    width: 90%;
+  }
+
+  .event-wrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 80%;
+  }
+
+  .event-item img {
+    margin-bottom: 10px;
+  }
+
+  /* Champioship Area Media */
+
+  .champ-img {
+    padding: 25px 0 10px 25px;
+  }
+
+  .swords {
+    height: 110px;
+  }
+
+  .champ-game {
+    height: 120px;
+    position: relative;
+    z-index: 8;
+  }
+
+  .ocult {
+    display: block;
+  }
+
+  .champ-item p {
+    font-size: 16px;
+  }
+
+  .champ-item {
+    width: 48%;
+    padding-bottom: 2px;
+    min-height: 145px;
+  }
+
+  .row-champ {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .championships {
+    max-width: 1500px;
+    margin: auto;
+  }
+
+  /* Sponsors Area */
+
+  .sp-brand {
+    margin: 30px 20px;
+  }
+
+  /* Footer Area Media */
+
+  footer {
+    padding: 25px 15px;
+  }
+
+  .flex-desktop {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sponsor-row {
+    margin: 0;
+  }
+
+  /********* About Page Media */
+
+  /* Main Section Media */
+
+  .about-main {
+    padding: 0 15px;
+  }
+
+  .long-p span {
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 12px;
+  }
+
+  .img-2018 {
+    margin-left: 80px;
+  }
+
+  /* ************* Tickets Page **** */
+
+  .day {
+    margin: 25px auto;
+    width: 80%;
+    max-width: 820px;
+  }
+
+  .boxOptions {
+    box-shadow: 0 0 0;
+    padding: 0;
+  }
+
+  .wrapper-boxOptions {
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px var(--gray-main-color);
+    display: flex;
+    padding: 0 15px;
+    background-color: white;
+    max-width: 1000px;
+  }
+}
