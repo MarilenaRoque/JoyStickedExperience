@@ -41,7 +41,7 @@ Follow the guidelines of the given design, including:
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/MarilenaRoque/JoyStickedExperience/develop/index.html)
+[Live Demo Link](https://marilenaroque.github.io/JoyStickedExperience/)
 
 ## Demo Video
 
