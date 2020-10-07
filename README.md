@@ -1,6 +1,6 @@
 # JoySticked Experiece 
 
-> This project is a website for a fictitious Gamer Event.
+> This is a fully responsive website for a Gamer Event. It was developed using HTML5, CSS3 and Bootstrap. It is presented on 3 different versions: mobile, tablet and desktop.
 
 This is my capstone project for the HTML5/CSS3 module from Microverse Curriculum.
 
